@@ -34,7 +34,7 @@ let listarTabla = (base, limite = 10) => {
     console.log('===================='.green);
 
     return multiplicarRango(base, 1, limite);
-}
+};
 
 let crearArchivo = async(base, limite = 10) => {
     if (!Number(base)) throw new Error('El valor de la base introducido no es un numero');

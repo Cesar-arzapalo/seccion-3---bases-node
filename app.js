@@ -35,7 +35,7 @@ let ejecutar = () => {
                 console.log('Comando no reconocido');
             }
     }
-}
+};
 
 let construirArchivo = async() => {
     let archivo = await crearArchivo(argv.base, argv.limite);
